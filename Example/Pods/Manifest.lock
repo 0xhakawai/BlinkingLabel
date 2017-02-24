@@ -1,0 +1,22 @@
+PODS:
+  - BlinkingLabel (0.1.0)
+  - Nimble (5.1.1)
+  - Quick (1.0.0)
+
+DEPENDENCIES:
+  - BlinkingLabel (from `../`)
+  - Nimble (~> 5.1.1)
+  - Quick (~> 1.0.0)
+
+EXTERNAL SOURCES:
+  BlinkingLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BlinkingLabel: 990eb59f1446d48c1de40e3a5df4a31c2c732924
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+
+PODFILE CHECKSUM: 0f42a917e8364fcff972172ede36c91af6ec12c2
+
+COCOAPODS: 1.2.0.beta.1
