@@ -1,0 +1,21 @@
+[{
+ "menu": {
+ "name": "Checkin",
+ "image": "",
+ "selected": "1"
+ },
+ "nib": {
+ "indentifier": "checkinViewController",
+ "is_framework": "0"
+ }
+ }, {
+ "menu": {
+ "name": "Desk info",
+ "image": "",
+ "selected": "0"
+ },
+ "nib": {
+ "indentifier": "deskInfoViewController",
+ "is_framework": "0"
+ }
+ }]

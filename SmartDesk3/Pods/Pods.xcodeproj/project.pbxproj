@@ -1,0 +1,1000 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0316C44D0D9A2769394F6A4FB682B36D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957E8D11F4B0DBBA28B72ED102348358 /* Foundation.framework */; };
+		13D4A74FC77DF743AE5F619556C5A6FD /* Pods-SmartDesk3Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC5C9CEADBA10D1ED0D80A5BA063A36 /* Pods-SmartDesk3Tests-dummy.m */; };
+		22702B53648261F9FF67AF7D24A48D3C /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD805B5C7E7A3BE09E14E2A0783EFB6 /* UIImage+REFrostedViewController.m */; };
+		3483A723778816745301478EA0FDE74E /* Pods-SmartDesk3UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A2D0FD028ABCC7B3FEBC16F498444 /* Pods-SmartDesk3UITests-dummy.m */; };
+		3B0A9D64EF9E5D7907C65D998B8389D8 /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5AC01D952D153D387E31EFCA5E976B /* UIView+REFrostedViewController.m */; };
+		3D33E3392C4F44AB314E4A07B1F21D5C /* REFrostedContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E866582AF0527EFBA9BEBD48D07E3D0C /* REFrostedContainerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DD5640009E3219ADC013E5027CBA9C1 /* REFrostedViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52AF33A21DBE55ECF668136866640168 /* REFrostedViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E27D4D9041FAD814BD142B8235A6B2C /* REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7393D4A353D18382E84E0038628B70A4 /* REFrostedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53EA23AC7FB15F1A6043B572EB364A07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957E8D11F4B0DBBA28B72ED102348358 /* Foundation.framework */; };
+		5D742D26CABCBA8426E28974FFC5046E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957E8D11F4B0DBBA28B72ED102348358 /* Foundation.framework */; };
+		64CFFA4483D886945981D218968DC50B /* Pods-SmartDesk3UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE9138105D533C196BFED750D86D69C /* Pods-SmartDesk3UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B5C61CFA33DC88115FD8B44C95F20AF /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5CB95B9345A155A0171AC6CC531601 /* REFrostedViewController.m */; };
+		76FA57B9A61C34FC649A0AF405EA6ACF /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA2974F022BDC13CCDFA4CE995BBA7 /* UIViewController+REFrostedViewController.m */; };
+		7CBEA36D12975D2EA433F490FD2A9DDA /* Pods-SmartDesk3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4034D82DA2787B69D7DF472B8BE3804 /* Pods-SmartDesk3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D39AEFACEC87E0198C9CCA4E23FEDFC /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDB506DBC81ADE043929F2D8985CC64 /* RECommonFunctions.m */; };
+		8BF85B05652058CEAC5FF18DC89F43B7 /* RECommonFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 521620CFC2D375B1D7EA8F5E6D996149 /* RECommonFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94A41C5FDF7246FB59FAB2100D678C26 /* UIView+REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ACFA588E1D4063D8255F511221CE5DA /* UIView+REFrostedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A5C69FAF8DCD9C9AF42E2E5A8028981 /* UIViewController+REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F4FF289D08ACE48D68A264765B02006 /* UIViewController+REFrostedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CD2549FAD8541DD7B9E61C230E23D74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957E8D11F4B0DBBA28B72ED102348358 /* Foundation.framework */; };
+		A9FA48BE1A1803144CEFAC24F0FBEB81 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF57606DF7D7958533DAEFACA4EB986 /* Accelerate.framework */; };
+		AAA97204FDB791E0EB4A2C1A751D2F63 /* Pods-SmartDesk3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A87A875E0E904ABFADAD15BAD96CF780 /* Pods-SmartDesk3-dummy.m */; };
+		AD4B4F09C3D4B0FB236E7DD48578206D /* REFrostedViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4146CEDFB490CEFED7E60C1E73E7B493 /* REFrostedViewController-dummy.m */; };
+		B88800AE35B44D9A589286281FD73CFD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D5EA782278C6439D39F32E5FDE0BB1 /* QuartzCore.framework */; };
+		D967BF63DCC4494548FE2F6ECAF80BC3 /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 297B0DA4DAE60CE6757DCAABCD6A3715 /* REFrostedContainerViewController.m */; };
+		FD078E5A6221AFFFB7DAC3C41B2743EE /* Pods-SmartDesk3Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E2CA3CF887504FC2E7FE57B51684DC /* Pods-SmartDesk3Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD6D2D60BB89335F69E2798BB37F3B95 /* UIImage+REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B5803D29F467F00414B4D624967A956 /* UIImage+REFrostedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E734E470FD5FF8A8EB408EA3FC954B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22E8F8FF161BA9B420F9067C391FE654;
+			remoteInfo = REFrostedViewController;
+		};
+		A2F3D3FD144B8B91450872B2EE3E5CB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22E8F8FF161BA9B420F9067C391FE654;
+			remoteInfo = REFrostedViewController;
+		};
+		D7E4E072B1B0906B59570332FD0F54FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22E8F8FF161BA9B420F9067C391FE654;
+			remoteInfo = REFrostedViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0028E1FE04BF7F33B876D3BC0E18CB82 /* Pods_SmartDesk3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SmartDesk3Tests.framework; path = "Pods-SmartDesk3Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		039BDC1CFF14411F0DAF0FDC40163439 /* Pods-SmartDesk3UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartDesk3UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		045A906F78ACD44B0C8B57BE5BC30143 /* Pods-SmartDesk3Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartDesk3Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0ACFA588E1D4063D8255F511221CE5DA /* UIView+REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+REFrostedViewController.h"; path = "REFrostedViewController/UIView+REFrostedViewController.h"; sourceTree = "<group>"; };
+		0BD54BB0FDF7EF6BC31A6BD5F1CCE7E8 /* Pods-SmartDesk3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartDesk3.release.xcconfig"; sourceTree = "<group>"; };
+		14E2CA3CF887504FC2E7FE57B51684DC /* Pods-SmartDesk3Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartDesk3Tests-umbrella.h"; sourceTree = "<group>"; };
+		16FE1DBE0BBE4A6F73AF125529DBE4FE /* Pods-SmartDesk3-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartDesk3-acknowledgements.plist"; sourceTree = "<group>"; };
+		174F5248339EF0DD6F0CB803A484B4C6 /* Pods-SmartDesk3-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartDesk3-frameworks.sh"; sourceTree = "<group>"; };
+		1CD805B5C7E7A3BE09E14E2A0783EFB6 /* UIImage+REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+REFrostedViewController.m"; path = "REFrostedViewController/UIImage+REFrostedViewController.m"; sourceTree = "<group>"; };
+		2323D9FC72B49B9D3B27A35633683245 /* Pods-SmartDesk3UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SmartDesk3UITests.modulemap"; sourceTree = "<group>"; };
+		297B0DA4DAE60CE6757DCAABCD6A3715 /* REFrostedContainerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REFrostedContainerViewController.m; path = REFrostedViewController/REFrostedContainerViewController.m; sourceTree = "<group>"; };
+		2C97BF9CC68266E488BBF605ABB1A473 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
+		2D5AC01D952D153D387E31EFCA5E976B /* UIView+REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+REFrostedViewController.m"; path = "REFrostedViewController/UIView+REFrostedViewController.m"; sourceTree = "<group>"; };
+		2F4FF289D08ACE48D68A264765B02006 /* UIViewController+REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+REFrostedViewController.h"; path = "REFrostedViewController/UIViewController+REFrostedViewController.h"; sourceTree = "<group>"; };
+		2FD866EC573603E46516A41DD5FC48C3 /* Pods-SmartDesk3Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartDesk3Tests-frameworks.sh"; sourceTree = "<group>"; };
+		30D31B649327E2452744D0E70C7FA496 /* Pods-SmartDesk3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartDesk3.debug.xcconfig"; sourceTree = "<group>"; };
+		333F343A51DED2ABCB5D23301BCBA2C0 /* Pods-SmartDesk3UITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartDesk3UITests-resources.sh"; sourceTree = "<group>"; };
+		33C03FBBDA5A42120805A58C0CC1CD51 /* Pods_SmartDesk3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SmartDesk3.framework; path = "Pods-SmartDesk3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		355399A35BFB206CD4ACC2A640C6E940 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
+		3988CA2EC104DA61968CA16ADC6D7ED9 /* Pods-SmartDesk3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartDesk3UITests.release.xcconfig"; sourceTree = "<group>"; };
+		3AF57606DF7D7958533DAEFACA4EB986 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		3C3D800F22D6BCE3ED161FB1478471E9 /* Pods-SmartDesk3Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartDesk3Tests-resources.sh"; sourceTree = "<group>"; };
+		4023B99B89F94B741642049347AF924E /* Pods-SmartDesk3-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartDesk3-resources.sh"; sourceTree = "<group>"; };
+		4146CEDFB490CEFED7E60C1E73E7B493 /* REFrostedViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "REFrostedViewController-dummy.m"; sourceTree = "<group>"; };
+		43D5EA782278C6439D39F32E5FDE0BB1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		47BD1C7DAF8104BEF9C21A257FF8B4CF /* REFrostedViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = REFrostedViewController.framework; path = REFrostedViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA0D42E39D89C9C9303CB5DD33EE32E /* Pods-SmartDesk3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartDesk3Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4D9627B986A1823C131F2B3A1EA3066F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC5C9CEADBA10D1ED0D80A5BA063A36 /* Pods-SmartDesk3Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartDesk3Tests-dummy.m"; sourceTree = "<group>"; };
+		517A2D0FD028ABCC7B3FEBC16F498444 /* Pods-SmartDesk3UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartDesk3UITests-dummy.m"; sourceTree = "<group>"; };
+		521620CFC2D375B1D7EA8F5E6D996149 /* RECommonFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RECommonFunctions.h; path = REFrostedViewController/RECommonFunctions.h; sourceTree = "<group>"; };
+		52AF33A21DBE55ECF668136866640168 /* REFrostedViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "REFrostedViewController-umbrella.h"; sourceTree = "<group>"; };
+		5B5803D29F467F00414B4D624967A956 /* UIImage+REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+REFrostedViewController.h"; path = "REFrostedViewController/UIImage+REFrostedViewController.h"; sourceTree = "<group>"; };
+		5FB02418A0B5AB8356FCC92AF261A825 /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
+		6187B59318BC434E275B6BA5161E84D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634A78021A5AED48CFC01EC20B3F5132 /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
+		6776F3F6513FC782350EF61E7E974812 /* Pods-SmartDesk3UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartDesk3UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6C2197877CEB64EEE12CE3F65CD4B7E9 /* REFrostedViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = REFrostedViewController.modulemap; sourceTree = "<group>"; };
+		7393D4A353D18382E84E0038628B70A4 /* REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REFrostedViewController.h; path = REFrostedViewController/REFrostedViewController.h; sourceTree = "<group>"; };
+		7BDB506DBC81ADE043929F2D8985CC64 /* RECommonFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RECommonFunctions.m; path = REFrostedViewController/RECommonFunctions.m; sourceTree = "<group>"; };
+		7E5CB95B9345A155A0171AC6CC531601 /* REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REFrostedViewController.m; path = REFrostedViewController/REFrostedViewController.m; sourceTree = "<group>"; };
+		82B84454DE6CB8E44F8DB12F7EA38B21 /* Pods-SmartDesk3UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartDesk3UITests-frameworks.sh"; sourceTree = "<group>"; };
+		89B9F2830627854408AF0A7B5CE89730 /* REFrostedViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = REFrostedViewController.xcconfig; sourceTree = "<group>"; };
+		8AEA2974F022BDC13CCDFA4CE995BBA7 /* UIViewController+REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+REFrostedViewController.m"; path = "REFrostedViewController/UIViewController+REFrostedViewController.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93CEA35CB5516AD21AEC5B155B8E5A72 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
+		94B02B04F251B2CBFD8A2C1ECA02057D /* Pods-SmartDesk3Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SmartDesk3Tests.modulemap"; sourceTree = "<group>"; };
+		957E8D11F4B0DBBA28B72ED102348358 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9BD14CF4E66462CF801794091090FA8E /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		A69A93435939F01D015BD496FFA06C7D /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
+		A87A875E0E904ABFADAD15BAD96CF780 /* Pods-SmartDesk3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartDesk3-dummy.m"; sourceTree = "<group>"; };
+		AEA75101A107FA4B1DC44BA458AE02EC /* Pods-SmartDesk3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartDesk3UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4034D82DA2787B69D7DF472B8BE3804 /* Pods-SmartDesk3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartDesk3-umbrella.h"; sourceTree = "<group>"; };
+		C829B7FED69B1709698A118532991CA8 /* Pods-SmartDesk3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartDesk3Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D05D890CE703A0ED4127588C4FAA2CD0 /* Pods-SmartDesk3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SmartDesk3.modulemap"; sourceTree = "<group>"; };
+		D921E08B7C37FA7AFC7D9CAF6BE6F4C8 /* Pods-SmartDesk3-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartDesk3-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DC767842852BC2119381DEDC8167BF80 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCFBE8D981DF255B219F6085B33544E0 /* REFrostedViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "REFrostedViewController-prefix.pch"; sourceTree = "<group>"; };
+		E75696C6A936B524DE820A8BB257BDC8 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
+		E866582AF0527EFBA9BEBD48D07E3D0C /* REFrostedContainerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REFrostedContainerViewController.h; path = REFrostedViewController/REFrostedContainerViewController.h; sourceTree = "<group>"; };
+		E92E227BBF649C0CEF5078C438DBAE22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E997AFEFD35C1F6BEAEEC30F6CAE811B /* Pods_SmartDesk3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SmartDesk3UITests.framework; path = "Pods-SmartDesk3UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3211F92E4C79253420A8ACD8435572 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
+		ED7D6DA9CDA61A0959A09B3E20480DF5 /* Pods-SmartDesk3Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartDesk3Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EEE9138105D533C196BFED750D86D69C /* Pods-SmartDesk3UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartDesk3UITests-umbrella.h"; sourceTree = "<group>"; };
+		F1EC609729DD363EB7A30F0AF3EF93BD /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
+		F220DFD7E92CCE42A621602907D755B1 /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AAEADE85C86047C74C9000E2DAF7FD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EA23AC7FB15F1A6043B572EB364A07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1D99E236193D785A8C0B6F1E5C1115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD2549FAD8541DD7B9E61C230E23D74 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD054498CC6D0C57FE8DC903D94C9948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FA48BE1A1803144CEFAC24F0FBEB81 /* Accelerate.framework in Frameworks */,
+				5D742D26CABCBA8426E28974FFC5046E /* Foundation.framework in Frameworks */,
+				B88800AE35B44D9A589286281FD73CFD /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0B0C579794F29EC8771CF898F5BE57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0316C44D0D9A2769394F6A4FB682B36D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EFFD94621DF368796A86EE118304597 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C2DE07E41B5F91EFFF4C51A8AC81BC /* Pods-SmartDesk3 */,
+				60CBF25720B163A2DD41662F4282487B /* Pods-SmartDesk3Tests */,
+				C8B10CA4071427ECB1530981C363A708 /* Pods-SmartDesk3UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EB870A96AB09507BA8548A217E6AE8D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		283B6F4E1BC59DCF73135151B9B31BED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC767842852BC2119381DEDC8167BF80 /* Info.plist */,
+				6C2197877CEB64EEE12CE3F65CD4B7E9 /* REFrostedViewController.modulemap */,
+				89B9F2830627854408AF0A7B5CE89730 /* REFrostedViewController.xcconfig */,
+				4146CEDFB490CEFED7E60C1E73E7B493 /* REFrostedViewController-dummy.m */,
+				DCFBE8D981DF255B219F6085B33544E0 /* REFrostedViewController-prefix.pch */,
+				52AF33A21DBE55ECF668136866640168 /* REFrostedViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/REFrostedViewController";
+			sourceTree = "<group>";
+		};
+		3BD9C4BC1F40D9282D5258FBE2DD7785 /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				2C97BF9CC68266E488BBF605ABB1A473 /* FABAttributes.h */,
+				A69A93435939F01D015BD496FFA06C7D /* Fabric.h */,
+				F85877CAEE049C5D305C1C746ED167CF /* Frameworks */,
+			);
+			name = Fabric;
+			path = Fabric;
+			sourceTree = "<group>";
+		};
+		60CBF25720B163A2DD41662F4282487B /* Pods-SmartDesk3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6187B59318BC434E275B6BA5161E84D5 /* Info.plist */,
+				94B02B04F251B2CBFD8A2C1ECA02057D /* Pods-SmartDesk3Tests.modulemap */,
+				045A906F78ACD44B0C8B57BE5BC30143 /* Pods-SmartDesk3Tests-acknowledgements.markdown */,
+				ED7D6DA9CDA61A0959A09B3E20480DF5 /* Pods-SmartDesk3Tests-acknowledgements.plist */,
+				4EC5C9CEADBA10D1ED0D80A5BA063A36 /* Pods-SmartDesk3Tests-dummy.m */,
+				2FD866EC573603E46516A41DD5FC48C3 /* Pods-SmartDesk3Tests-frameworks.sh */,
+				3C3D800F22D6BCE3ED161FB1478471E9 /* Pods-SmartDesk3Tests-resources.sh */,
+				14E2CA3CF887504FC2E7FE57B51684DC /* Pods-SmartDesk3Tests-umbrella.h */,
+				C829B7FED69B1709698A118532991CA8 /* Pods-SmartDesk3Tests.debug.xcconfig */,
+				4AA0D42E39D89C9C9303CB5DD33EE32E /* Pods-SmartDesk3Tests.release.xcconfig */,
+			);
+			name = "Pods-SmartDesk3Tests";
+			path = "Target Support Files/Pods-SmartDesk3Tests";
+			sourceTree = "<group>";
+		};
+		6EB870A96AB09507BA8548A217E6AE8D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3AF57606DF7D7958533DAEFACA4EB986 /* Accelerate.framework */,
+				957E8D11F4B0DBBA28B72ED102348358 /* Foundation.framework */,
+				43D5EA782278C6439D39F32E5FDE0BB1 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7BDEF8974CD776BCEDE39844355BE69B /* REFrostedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				521620CFC2D375B1D7EA8F5E6D996149 /* RECommonFunctions.h */,
+				7BDB506DBC81ADE043929F2D8985CC64 /* RECommonFunctions.m */,
+				E866582AF0527EFBA9BEBD48D07E3D0C /* REFrostedContainerViewController.h */,
+				297B0DA4DAE60CE6757DCAABCD6A3715 /* REFrostedContainerViewController.m */,
+				7393D4A353D18382E84E0038628B70A4 /* REFrostedViewController.h */,
+				7E5CB95B9345A155A0171AC6CC531601 /* REFrostedViewController.m */,
+				5B5803D29F467F00414B4D624967A956 /* UIImage+REFrostedViewController.h */,
+				1CD805B5C7E7A3BE09E14E2A0783EFB6 /* UIImage+REFrostedViewController.m */,
+				0ACFA588E1D4063D8255F511221CE5DA /* UIView+REFrostedViewController.h */,
+				2D5AC01D952D153D387E31EFCA5E976B /* UIView+REFrostedViewController.m */,
+				2F4FF289D08ACE48D68A264765B02006 /* UIViewController+REFrostedViewController.h */,
+				8AEA2974F022BDC13CCDFA4CE995BBA7 /* UIViewController+REFrostedViewController.m */,
+				283B6F4E1BC59DCF73135151B9B31BED /* Support Files */,
+			);
+			name = REFrostedViewController;
+			path = REFrostedViewController;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				9CB578D23C3A8062CA4968C9E7AFB5A1 /* Pods */,
+				E939F63AC7199BBC9BC2C4FF3F7011E1 /* Products */,
+				0EFFD94621DF368796A86EE118304597 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84C2DE07E41B5F91EFFF4C51A8AC81BC /* Pods-SmartDesk3 */ = {
+			isa = PBXGroup;
+			children = (
+				4D9627B986A1823C131F2B3A1EA3066F /* Info.plist */,
+				D05D890CE703A0ED4127588C4FAA2CD0 /* Pods-SmartDesk3.modulemap */,
+				D921E08B7C37FA7AFC7D9CAF6BE6F4C8 /* Pods-SmartDesk3-acknowledgements.markdown */,
+				16FE1DBE0BBE4A6F73AF125529DBE4FE /* Pods-SmartDesk3-acknowledgements.plist */,
+				A87A875E0E904ABFADAD15BAD96CF780 /* Pods-SmartDesk3-dummy.m */,
+				174F5248339EF0DD6F0CB803A484B4C6 /* Pods-SmartDesk3-frameworks.sh */,
+				4023B99B89F94B741642049347AF924E /* Pods-SmartDesk3-resources.sh */,
+				B4034D82DA2787B69D7DF472B8BE3804 /* Pods-SmartDesk3-umbrella.h */,
+				30D31B649327E2452744D0E70C7FA496 /* Pods-SmartDesk3.debug.xcconfig */,
+				0BD54BB0FDF7EF6BC31A6BD5F1CCE7E8 /* Pods-SmartDesk3.release.xcconfig */,
+			);
+			name = "Pods-SmartDesk3";
+			path = "Target Support Files/Pods-SmartDesk3";
+			sourceTree = "<group>";
+		};
+		9CB578D23C3A8062CA4968C9E7AFB5A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F96CF613F84DD316AE57FA5821410BA0 /* Crashlytics */,
+				3BD9C4BC1F40D9282D5258FBE2DD7785 /* Fabric */,
+				7BDEF8974CD776BCEDE39844355BE69B /* REFrostedViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9CC6D7CBDA457349887183E9C9699926 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E75696C6A936B524DE820A8BB257BDC8 /* Crashlytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8B10CA4071427ECB1530981C363A708 /* Pods-SmartDesk3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E92E227BBF649C0CEF5078C438DBAE22 /* Info.plist */,
+				2323D9FC72B49B9D3B27A35633683245 /* Pods-SmartDesk3UITests.modulemap */,
+				039BDC1CFF14411F0DAF0FDC40163439 /* Pods-SmartDesk3UITests-acknowledgements.markdown */,
+				6776F3F6513FC782350EF61E7E974812 /* Pods-SmartDesk3UITests-acknowledgements.plist */,
+				517A2D0FD028ABCC7B3FEBC16F498444 /* Pods-SmartDesk3UITests-dummy.m */,
+				82B84454DE6CB8E44F8DB12F7EA38B21 /* Pods-SmartDesk3UITests-frameworks.sh */,
+				333F343A51DED2ABCB5D23301BCBA2C0 /* Pods-SmartDesk3UITests-resources.sh */,
+				EEE9138105D533C196BFED750D86D69C /* Pods-SmartDesk3UITests-umbrella.h */,
+				AEA75101A107FA4B1DC44BA458AE02EC /* Pods-SmartDesk3UITests.debug.xcconfig */,
+				3988CA2EC104DA61968CA16ADC6D7ED9 /* Pods-SmartDesk3UITests.release.xcconfig */,
+			);
+			name = "Pods-SmartDesk3UITests";
+			path = "Target Support Files/Pods-SmartDesk3UITests";
+			sourceTree = "<group>";
+		};
+		E939F63AC7199BBC9BC2C4FF3F7011E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33C03FBBDA5A42120805A58C0CC1CD51 /* Pods_SmartDesk3.framework */,
+				0028E1FE04BF7F33B876D3BC0E18CB82 /* Pods_SmartDesk3Tests.framework */,
+				E997AFEFD35C1F6BEAEEC30F6CAE811B /* Pods_SmartDesk3UITests.framework */,
+				47BD1C7DAF8104BEF9C21A257FF8B4CF /* REFrostedViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F85877CAEE049C5D305C1C746ED167CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC3211F92E4C79253420A8ACD8435572 /* Fabric.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F96CF613F84DD316AE57FA5821410BA0 /* Crashlytics */ = {
+			isa = PBXGroup;
+			children = (
+				634A78021A5AED48CFC01EC20B3F5132 /* ANSCompatibility.h */,
+				F220DFD7E92CCE42A621602907D755B1 /* Answers.h */,
+				93CEA35CB5516AD21AEC5B155B8E5A72 /* CLSAttributes.h */,
+				355399A35BFB206CD4ACC2A640C6E940 /* CLSLogging.h */,
+				9BD14CF4E66462CF801794091090FA8E /* CLSReport.h */,
+				5FB02418A0B5AB8356FCC92AF261A825 /* CLSStackFrame.h */,
+				F1EC609729DD363EB7A30F0AF3EF93BD /* Crashlytics.h */,
+				9CC6D7CBDA457349887183E9C9699926 /* Frameworks */,
+			);
+			name = Crashlytics;
+			path = Crashlytics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		152D0D9559CC68FE6C15BDBB861D8C05 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF85B05652058CEAC5FF18DC89F43B7 /* RECommonFunctions.h in Headers */,
+				3D33E3392C4F44AB314E4A07B1F21D5C /* REFrostedContainerViewController.h in Headers */,
+				3DD5640009E3219ADC013E5027CBA9C1 /* REFrostedViewController-umbrella.h in Headers */,
+				4E27D4D9041FAD814BD142B8235A6B2C /* REFrostedViewController.h in Headers */,
+				FD6D2D60BB89335F69E2798BB37F3B95 /* UIImage+REFrostedViewController.h in Headers */,
+				94A41C5FDF7246FB59FAB2100D678C26 /* UIView+REFrostedViewController.h in Headers */,
+				9A5C69FAF8DCD9C9AF42E2E5A8028981 /* UIViewController+REFrostedViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F5006700525496A03DB6F06C9C2568 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD078E5A6221AFFFB7DAC3C41B2743EE /* Pods-SmartDesk3Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60D7848400F9C0B948B21E6A88FB90B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CBEA36D12975D2EA433F490FD2A9DDA /* Pods-SmartDesk3-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A7923C267D06035EA1A891CD2E1A9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CFFA4483D886945981D218968DC50B /* Pods-SmartDesk3UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1EAFD13BC352DD73F89EDFBD53A7EE26 /* Pods-SmartDesk3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0B6633B7898F0AE5F4BAA1EFFB9E14E /* Build configuration list for PBXNativeTarget "Pods-SmartDesk3UITests" */;
+			buildPhases = (
+				C841197396E7869D28F6CC90223DE76C /* Sources */,
+				9AAEADE85C86047C74C9000E2DAF7FD5 /* Frameworks */,
+				63A7923C267D06035EA1A891CD2E1A9E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				031007B51A9A0AFE74AC4990B2728DB4 /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartDesk3UITests";
+			productName = "Pods-SmartDesk3UITests";
+			productReference = E997AFEFD35C1F6BEAEEC30F6CAE811B /* Pods_SmartDesk3UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		22E8F8FF161BA9B420F9067C391FE654 /* REFrostedViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8874CFE9BC5094480F2CC4914D39AA6C /* Build configuration list for PBXNativeTarget "REFrostedViewController" */;
+			buildPhases = (
+				E43D0E5ED3BA85EAD7C5765583D1348C /* Sources */,
+				DD054498CC6D0C57FE8DC903D94C9948 /* Frameworks */,
+				152D0D9559CC68FE6C15BDBB861D8C05 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = REFrostedViewController;
+			productName = REFrostedViewController;
+			productReference = 47BD1C7DAF8104BEF9C21A257FF8B4CF /* REFrostedViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2852D91784052B4A28F5BABE1867A5DE /* Pods-SmartDesk3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54446D7FD27E986D08AA5848AADDD106 /* Build configuration list for PBXNativeTarget "Pods-SmartDesk3" */;
+			buildPhases = (
+				32A9111D6485A5BD5D12DE72BB26EF80 /* Sources */,
+				EC0B0C579794F29EC8771CF898F5BE57 /* Frameworks */,
+				60D7848400F9C0B948B21E6A88FB90B1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC4F3885D5A4699FA95C8198AB18EB7A /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartDesk3";
+			productName = "Pods-SmartDesk3";
+			productReference = 33C03FBBDA5A42120805A58C0CC1CD51 /* Pods_SmartDesk3.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E25E89DE46D3D3EAB040C8BCCF3C86B /* Pods-SmartDesk3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 099FCA20B73B878308E99D439A7761EE /* Build configuration list for PBXNativeTarget "Pods-SmartDesk3Tests" */;
+			buildPhases = (
+				2296C8C4209EF5085CAE6D98A5EED347 /* Sources */,
+				CB1D99E236193D785A8C0B6F1E5C1115 /* Frameworks */,
+				50F5006700525496A03DB6F06C9C2568 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43E03E968173E45D3ADE680552794125 /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartDesk3Tests";
+			productName = "Pods-SmartDesk3Tests";
+			productReference = 0028E1FE04BF7F33B876D3BC0E18CB82 /* Pods_SmartDesk3Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E939F63AC7199BBC9BC2C4FF3F7011E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2852D91784052B4A28F5BABE1867A5DE /* Pods-SmartDesk3 */,
+				6E25E89DE46D3D3EAB040C8BCCF3C86B /* Pods-SmartDesk3Tests */,
+				1EAFD13BC352DD73F89EDFBD53A7EE26 /* Pods-SmartDesk3UITests */,
+				22E8F8FF161BA9B420F9067C391FE654 /* REFrostedViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2296C8C4209EF5085CAE6D98A5EED347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D4A74FC77DF743AE5F619556C5A6FD /* Pods-SmartDesk3Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A9111D6485A5BD5D12DE72BB26EF80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA97204FDB791E0EB4A2C1A751D2F63 /* Pods-SmartDesk3-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C841197396E7869D28F6CC90223DE76C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3483A723778816745301478EA0FDE74E /* Pods-SmartDesk3UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E43D0E5ED3BA85EAD7C5765583D1348C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D39AEFACEC87E0198C9CCA4E23FEDFC /* RECommonFunctions.m in Sources */,
+				D967BF63DCC4494548FE2F6ECAF80BC3 /* REFrostedContainerViewController.m in Sources */,
+				AD4B4F09C3D4B0FB236E7DD48578206D /* REFrostedViewController-dummy.m in Sources */,
+				6B5C61CFA33DC88115FD8B44C95F20AF /* REFrostedViewController.m in Sources */,
+				22702B53648261F9FF67AF7D24A48D3C /* UIImage+REFrostedViewController.m in Sources */,
+				3B0A9D64EF9E5D7907C65D998B8389D8 /* UIView+REFrostedViewController.m in Sources */,
+				76FA57B9A61C34FC649A0AF405EA6ACF /* UIViewController+REFrostedViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		031007B51A9A0AFE74AC4990B2728DB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = REFrostedViewController;
+			target = 22E8F8FF161BA9B420F9067C391FE654 /* REFrostedViewController */;
+			targetProxy = 5E734E470FD5FF8A8EB408EA3FC954B6 /* PBXContainerItemProxy */;
+		};
+		43E03E968173E45D3ADE680552794125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = REFrostedViewController;
+			target = 22E8F8FF161BA9B420F9067C391FE654 /* REFrostedViewController */;
+			targetProxy = A2F3D3FD144B8B91450872B2EE3E5CB8 /* PBXContainerItemProxy */;
+		};
+		FC4F3885D5A4699FA95C8198AB18EB7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = REFrostedViewController;
+			target = 22E8F8FF161BA9B420F9067C391FE654 /* REFrostedViewController */;
+			targetProxy = D7E4E072B1B0906B59570332FD0F54FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BF959E04674107CE80EC9671687FF18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30D31B649327E2452744D0E70C7FA496 /* Pods-SmartDesk3.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartDesk3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartDesk3/Pods-SmartDesk3.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SmartDesk3;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		50D942F077AF9E0E384AB5F44B1C5B56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEA75101A107FA4B1DC44BA458AE02EC /* Pods-SmartDesk3UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartDesk3UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartDesk3UITests/Pods-SmartDesk3UITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SmartDesk3UITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		67D524920BFB99A2953D9A01AE3E9082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA0D42E39D89C9C9303CB5DD33EE32E /* Pods-SmartDesk3Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartDesk3Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartDesk3Tests/Pods-SmartDesk3Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SmartDesk3Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		67FDBB21C53B3FEA182EAF94B50CD8DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C829B7FED69B1709698A118532991CA8 /* Pods-SmartDesk3Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartDesk3Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartDesk3Tests/Pods-SmartDesk3Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SmartDesk3Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C64C79669096E1E6E412FCC99FD4B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89B9F2830627854408AF0A7B5CE89730 /* REFrostedViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/REFrostedViewController/REFrostedViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/REFrostedViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/REFrostedViewController/REFrostedViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = REFrostedViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6EF1B654D5A4A18E52C7D94E866585C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3988CA2EC104DA61968CA16ADC6D7ED9 /* Pods-SmartDesk3UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartDesk3UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartDesk3UITests/Pods-SmartDesk3UITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SmartDesk3UITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97FEE3DFC62F04A75900316DB3E70AD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89B9F2830627854408AF0A7B5CE89730 /* REFrostedViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/REFrostedViewController/REFrostedViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/REFrostedViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/REFrostedViewController/REFrostedViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = REFrostedViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A579E9A88D9C7521619955828ED9641B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD54BB0FDF7EF6BC31A6BD5F1CCE7E8 /* Pods-SmartDesk3.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartDesk3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartDesk3/Pods-SmartDesk3.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SmartDesk3;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		099FCA20B73B878308E99D439A7761EE /* Build configuration list for PBXNativeTarget "Pods-SmartDesk3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67FDBB21C53B3FEA182EAF94B50CD8DB /* Debug */,
+				67D524920BFB99A2953D9A01AE3E9082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54446D7FD27E986D08AA5848AADDD106 /* Build configuration list for PBXNativeTarget "Pods-SmartDesk3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF959E04674107CE80EC9671687FF18 /* Debug */,
+				A579E9A88D9C7521619955828ED9641B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8874CFE9BC5094480F2CC4914D39AA6C /* Build configuration list for PBXNativeTarget "REFrostedViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97FEE3DFC62F04A75900316DB3E70AD4 /* Debug */,
+				6C64C79669096E1E6E412FCC99FD4B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0B6633B7898F0AE5F4BAA1EFFB9E14E /* Build configuration list for PBXNativeTarget "Pods-SmartDesk3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D942F077AF9E0E384AB5F44B1C5B56 /* Debug */,
+				6EF1B654D5A4A18E52C7D94E866585C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

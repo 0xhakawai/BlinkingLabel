@@ -1,7 +1,8 @@
 # .slather.yml
 coverage_service: coveralls
-workspace: Example/BlinkingLabel.xcworkspace
-scheme: BlinkingLabel-Example
+workspace: SmartDesk3/SmartDesk3.xcworkspace
+xcodeproj: SmartDesk3/SmartDesk3.xcodeproj
+scheme: SmartDesk3
 ignore:
-  - Example/Pods/*
-  - Example/Tests/*
+  - SmartDesk3/Pods/*
+  - SmartDesk3/Tests/*
