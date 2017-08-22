@@ -9,7 +9,7 @@ podfile: SmartDesk3/Podfile
 before_install:
 - rvm use $RVM_RUBY_VERSION
 - gem install cocoapods # Since Travis is not always on latest version
-- cd SmartDesk3 && pod install
+#- cd SmartDesk3 && pod install
 install:
 - bundle install --without=documentation --path ../travis_bundle_dir
 script:
