@@ -1,7 +1,7 @@
 # .slather.yml
 coverage_service: coveralls
-xcodeproj: Example/OAuth1.xcodeproj
-scheme: OAuth1
+workspace: Example/BlinkingLabel.xcworkspace
+scheme: BlinkingLabel-Example
 ignore:
   - Example/Pods/*
   - Example/Tests/*
