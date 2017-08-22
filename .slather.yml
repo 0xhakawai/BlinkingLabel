@@ -1,0 +1,7 @@
+# .slather.yml
+coverage_service: coveralls
+xcodeproj: Example/OAuth1.xcodeproj
+scheme: OAuth1
+ignore:
+  - Example/Pods/*
+  - Example/Tests/*
