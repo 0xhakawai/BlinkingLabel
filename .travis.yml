@@ -14,4 +14,4 @@ before_install:
 script:
 - xcodebuild test -workspace Example/BlinkingLabel.xcworkspace -scheme BlinkingLabel-Example -destination 'platform=iOS Simulator,name=iPhone SE,OS=10.3' -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint --allow-warnings
-#after_success: slather
+after_success: slather
