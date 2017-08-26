@@ -15,6 +15,6 @@ install:
 script:
 - xcodebuild test -workspace MVPTest/MVPTest.xcworkspace -scheme MVPTest -destination 'platform=iOS Simulator,name=iPhone SE,OS=10.3.1' -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
 #- pod lib lint --allow-warnings
-after_success:
+after_success: slather
 #- cd $TRAVIS_BUILD_DIR && slather
-- slather coverage -s --scheme MVPTest --workspace MVPTest/MVPTest.xcworkspace MVPTest/MVPTest.xcodeproj
+#- slather coverage -s --scheme MVPTest --workspace MVPTest/MVPTest.xcworkspace MVPTest/MVPTest.xcodeproj
