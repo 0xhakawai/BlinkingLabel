@@ -1,8 +1,8 @@
 # .slather.yml
 coverage_service: coveralls
-workspace: SmartDesk3/SmartDesk3.xcworkspace
-xcodeproj: SmartDesk3/SmartDesk3.xcodeproj
-scheme: SmartDesk3
+workspace: MVPTest/MVPTest.xcworkspace
+xcodeproj: MVPTest/MVPTest.xcodeproj
+scheme: MVPTest
 ignore:
-  - SmartDesk3/Pods/*
-  - SmartDesk3/Tests/*
+  - MVPTest/Pods/*
+  - MVPTest/Tests/*
