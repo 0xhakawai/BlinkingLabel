@@ -9,7 +9,7 @@ podfile: MVPTest/Podfile
 before_install:
 - rvm use $RVM_RUBY_VERSION
 - gem install cocoapods # Since Travis is not always on latest version
-- cd MVPTest && pod install
+- ls
 install:
 - bundle install --without=documentation --path ../travis_bundle_dir
 script:
