@@ -3,6 +3,7 @@ coverage_service: coveralls
 workspace: MVPTest/MVPTest.xcworkspace
 xcodeproj: MVPTest/MVPTest.xcodeproj
 scheme: MVPTest
+source_directory: MVPTest
 ignore:
   - MVPTest/Pods/*
   - MVPTest/Tests/*
