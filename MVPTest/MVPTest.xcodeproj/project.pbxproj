@@ -615,6 +615,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/MVPTest/Libs/objc-zmq/Library/zeromq-4.2.0/static",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.autonomous.MVPTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -634,6 +635,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/MVPTest/Libs/objc-zmq/Library/zeromq-4.2.0/static",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.autonomous.MVPTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
