@@ -20,4 +20,4 @@ script:
 after_success:
 #- cd $TRAVIS_BUILD_DIR && slather
 - slather
-- slather coverage -s --scheme MVPTest --workspace MVPTest/MVPTest.xcworkspace MVPTest/MVPTest.xcodeproj
+- slather coverage -s --html --scheme MVPTest --workspace MVPTest/MVPTest.xcworkspace MVPTest/MVPTest.xcodeproj
