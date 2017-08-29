@@ -19,4 +19,4 @@ script:
 #- pod lib lint --allow-warnings
 after_success:
 #- cd $TRAVIS_BUILD_DIR && slather
-- slather coverage -s --scheme MVPTest --workspace MVPTest/MVPTest.xcworkspace MVPTest/MVPTest.xcodeproj
+- slather coverage -s --scheme MVPTest --workspace MVPTest/MVPTest.xcworkspace MVPTest/MVPTest.xcodeproj --verbose
